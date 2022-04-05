@@ -1,8 +1,11 @@
-body {
-  background-image: url("assets/background/bg.jpg");
-  background-color: #cccccc;
-  background-position: center;
-}
+  body {
+    background-image: url("assets/background/bg.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
   
   img {
     border-radius: 100%;
