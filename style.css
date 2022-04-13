@@ -68,7 +68,7 @@
   }
 
   span {
-    padding-left: 15px;
+    padding-left: 10px;
   }
 
   .button:hover {
@@ -142,10 +142,7 @@
     .links-in {
       left: 10px;
     }
-    span {
-      padding-left: 22px;
-    }
-  }
+   }
 
   @media (max-width: 480px) {
     .links {
