@@ -1,5 +1,5 @@
   body {
-    background-image: url("assets/background/bg.jpg");
+    background-image: url("assets/background/bg.png");
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,11 +37,64 @@
     font-family: "Open Sans", sans-serif;
     color: #ffffff;
     font-size: 15px;
+    font-weight: 600;
+  }
+
+  .icon-buttons {
+    text-align: center;
+  }
+
+  .list-icons {
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    color: #ffffff;
   }
   
+  .list-icons:hover {
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    color: #1a3a6d;
+    text-decoration: none;
+    transition: all 400ms ease-in-out;
+  }    
+  
+  .icons {
+    padding: 4px;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+    width: 30px;
+    height: auto;
+    display: inline-block;
+    margin: 20px 10px;
+  }
+
+  .header-text-1{
+    display: block;
+    position: relative;
+    margin: 15px auto;
+    text-align: center;
+  }
+  
+  .header-text{
+    display: block;
+    position: relative;
+    margin: 35px auto 0;
+    text-align: center;
+  }
+  
+  .header-text-1 span, .header-text span{
+    display: inline-block;
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    padding: 10px;
+    color: #ffffff;
+  }
+
   .links {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 15px;
     padding: 20px;
     width: 490px;
     display: block;
@@ -51,6 +104,7 @@
     font-family: "Open Sans", sans-serif;
     position: relative;
     font-size: 16px;
+    font-weight: 600;
   }
     
   .button {
@@ -60,62 +114,29 @@
     border: 1px solid #ffffff;
   }
 
-  .links-in {
-    display: block;
-    border-radius: 40px;
-    left: 20px;
-    position: absolute;
-  }
-
-  span {
-    padding-left: 10px;
-  }
-
   .button:hover {
-    background: #141414;
+    background: #1a3a6d;
     color: #ffffff;
-    border: 1px solid #ffffff;
+    border: 1px solid #044fc8;
     text-decoration: none;
     transition: all 400ms ease-in-out;
   }
 
-  .social-media-buttons {
+  .contact-buttons {
     text-align: center;
   }
 
-  .button-bottom {
-    text-decoration: none;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-  }
-  
-  .button-bottom:hover {
-    background: #ffffff;
-    color: #000;
-    text-decoration: none;
-    transition: all 400ms ease-in-out;
-  }    
-  
-  .icon-social-media {
-    padding: 4px;
-    border: 1px solid #ffffff;
-    border-radius: 100%;
-    width: 30px;
-    height: auto;
-    display: inline-block;
-    margin: 50px 10px;
-  }
-
-  .fab,.fas{
+  .fa,.fab,.fas{
     font-size: 28px;
     vertical-align: middle;
+    font-weight: normal;
   }
   
   .credit {
     text-decoration: none;
     text-align: center;
-    margin-top: -10px;
-    margin-bottom: 10px;
+    margin-top: 45px;
+    margin-bottom: 20px;
     font-size: 14px;
     color: #ffffff;
     font-family: "Open Sans", sans-serif;
@@ -139,10 +160,7 @@
    .links {
       width: 320px;
     }
-    .links-in {
-      left: 10px;
-    }
-   }
+  }
 
   @media (max-width: 480px) {
     .links {
