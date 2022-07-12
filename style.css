@@ -1,5 +1,5 @@
   body {
-    background-image: url("assets/background/bg.png");
+    background-image: url("assets/background/bg.jpg");
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@
     text-align: center;
     padding: 10px;
     font-family: "Open Sans", sans-serif;
-    color: #ffffff;
+    color: #000000;
     font-size: 30px;
     font-weight: 600;
   }
@@ -35,7 +35,7 @@
     padding: 2px;
     line-height: 2em;
     font-family: "Open Sans", sans-serif;
-    color: #ffffff;
+    color: #000000;
     font-size: 15px;
     font-weight: 600;
   }
@@ -46,21 +46,22 @@
 
   .list-icons {
     text-decoration: none;
-    border: 1px solid #ffffff;
-    color: #ffffff;
+    border: 1px solid #000000;
+    color: #000000;
   }
   
   .list-icons:hover {
-    background: #ffffff;
-    border: 1px solid #ffffff;
-    color: #1a3a6d;
+    background: #1a3a6d;
+    border: 1px solid #1a3a6d;
+    color: #ffffff;
     text-decoration: none;
     transition: all 400ms ease-in-out;
   }    
   
   .icons {
     padding: 4px;
-    border: 1px solid #ffffff;
+    background: #ffffff;
+    border: 1px solid #000000;
     border-radius: 100%;
     width: 30px;
     height: auto;
@@ -89,7 +90,7 @@
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
     padding: 10px;
-    color: #ffffff;
+    color: #000000;
   }
 
   .links {
@@ -111,7 +112,7 @@
     text-decoration: none;
     background: #ffffff;
     color: #000;
-    border: 1px solid #ffffff;
+    border: 1px solid #000000;
   }
 
   .button:hover {
@@ -138,18 +139,18 @@
     margin-top: 45px;
     margin-bottom: 20px;
     font-size: 14px;
-    color: #ffffff;
+    color: #000000;
     font-family: "Open Sans", sans-serif;
   }
   
   .credit-link{
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
   }
  
   .credit-link:hover{
     text-decoration: underline;
-    color: #ffffff;
+    color: #000000;
   }
 
   @media (max-width: 600px) {
