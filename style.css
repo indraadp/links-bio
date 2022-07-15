@@ -25,7 +25,7 @@
     text-align: center;
     padding: 10px;
     font-family: "Open Sans", sans-serif;
-    color: #000000;
+    color: #ffffff;
     font-size: 30px;
     font-weight: 600;
   }
@@ -35,7 +35,7 @@
     padding: 2px;
     line-height: 2em;
     font-family: "Open Sans", sans-serif;
-    color: #000000;
+    color: #ffffff;
     font-size: 15px;
     font-weight: 600;
   }
@@ -46,22 +46,21 @@
 
   .list-icons {
     text-decoration: none;
-    border: 1px solid #000000;
-    color: #000000;
+    color: #ffffff;
   }
   
   .list-icons:hover {
-    background: #1a3a6d;
-    border: 1px solid #1a3a6d;
-    color: #ffffff;
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    color: #000000;
     text-decoration: none;
     transition: all 400ms ease-in-out;
   }    
   
   .icons {
     padding: 4px;
-    background: #ffffff;
-    border: 1px solid #000000;
+    background: none;
+    border: 2px solid #ffffff;
     border-radius: 100%;
     width: 30px;
     height: auto;
@@ -76,21 +75,21 @@
     text-align: center;
   }
   
-  .header-text{
+  .header-text {
     display: block;
     position: relative;
     margin: 35px auto 0;
     text-align: center;
   }
   
-  .header-text-1 span, .header-text span{
+  .header-text span, .header-text-1 span {
     display: inline-block;
     margin: 5px 0;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
     padding: 10px;
-    color: #000000;
+    color: #ffffff;
   }
 
   .links {
@@ -101,7 +100,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 15px;
+    border-radius: 40px;
     font-family: "Open Sans", sans-serif;
     position: relative;
     font-size: 16px;
@@ -139,18 +138,17 @@
     margin-top: 45px;
     margin-bottom: 20px;
     font-size: 14px;
-    color: #000000;
+    color: #ffffff;
     font-family: "Open Sans", sans-serif;
   }
   
   .credit-link{
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
   }
  
   .credit-link:hover{
     text-decoration: underline;
-    color: #000000;
   }
 
   @media (max-width: 600px) {
