@@ -1,4 +1,9 @@
-  body {
+h1,h2,h3,h4,h5 {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
     background-image: url("assets/background/bg.jpg");
     background-color: #202020;
     background-position: top;
@@ -32,7 +37,7 @@
   
   .profile-about {
     text-align: center;
-    padding: 2px;
+    padding-bottom: 10px;
     line-height: 2em;
     font-family: "Open Sans", sans-serif;
     color: #ffffff;
@@ -84,11 +89,9 @@
   
   .header-text span, .header-text-1 span {
     display: inline-block;
-    margin: 5px 0;
     font-size: 22px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
-    padding: 10px;
     color: #ffffff;
   }
 
