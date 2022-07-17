@@ -118,9 +118,9 @@ body {
   }
 
   .button:hover {
-    background: #1a3a6d;
+    background: #383f49;
     color: #ffffff;
-    border: 1px solid #044fc8;
+    border: 1px solid #5a0000;
     text-decoration: none;
     transition: all 400ms ease-in-out;
   }
