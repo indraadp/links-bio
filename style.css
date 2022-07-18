@@ -145,12 +145,16 @@ body {
     font-family: "Open Sans", sans-serif;
   }
   
-  .credit-link{
+  .credit-link {
     text-decoration: none;
     color: #ffffff;
   }
+
+  .credit-icon {
+    color: #ff0000;
+  }
  
-  .credit-link:hover{
+  .credit-link:hover {
     text-decoration: underline;
   }
 
